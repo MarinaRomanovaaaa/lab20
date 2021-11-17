@@ -1,0 +1,238 @@
+.rpos {
+    position: relative;
+    margin-bottom: 2%;
+  }
+  .apos{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .header_row {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    text-align: right;
+    font-size:250%;
+  }
+  header {
+    background: url(img/UNuxIPyqOZ0.jpg)
+    no-repeat center center fixed;
+    width: 200vh;
+    height: 610px;
+  }
+  
+  .header_title {
+    margin: 1%;
+    font-size: 90px;
+    text-align: center;
+    font-family:Bradley Hand, cursive;
+    color: #fff;
+  }
+  .arrow-7 {
+      margin: 40px auto 10px auto;
+      width: 38px;
+      height: 100px;
+  }
+  .arrow-7 span {
+      display: block;
+      width: 30px;
+      height: 30px;
+      border-bottom: 5px solid #fff;
+      border-right: 5px solid #fff;
+      transform: rotate(45deg);
+      margin: -16px 0;
+      animation: arrow-7 2s infinite;
+  }
+  .arrow-7 span:nth-child(2){
+      animation-delay: -0.2s;
+  }
+  .arrow-7 span:nth-child(3){
+      animation-delay: -0.4s;
+  }
+  @keyframes arrow-7 {
+      0%{
+          opacity: 0;
+          transform: translate(0,-20px) rotate(45deg);
+      }
+      50%{
+          opacity: 1;
+      }
+      100%{
+          opacity: 0;
+          transform: translate(0,20px) rotate(45deg);
+      }
+  }
+  body{
+      background: url(img/bg.png) top center  ;
+      
+    
+  }
+  .opisanie {
+      background-color: #ffffff;
+      width: 90%;
+      margin-left: 4%;
+      margin-top: 5%;
+  }
+  .vl {
+      border-left: 3px solid #000;
+      height: 15vh;
+      position: absolute;
+      margin-left: 46%;
+      margin-top: 1%;
+  }
+  .p_text{
+      color: #181818;
+      font-size: 80px;
+      line-height: 120%;
+      font-family: Bradley Hand, cursive;
+      text-align: center;
+      padding-top: 4%;
+  
+    }  
+  .text1, .text3, .text4, .text5  {
+      width: 70%;
+      color: #181818;
+      font-size: 29px;
+      line-height: 120%;
+      font-family: Bradley Hand, cursive;
+      font-weight: lighter;
+      text-align: center;
+      margin-left: 15%;
+      margin-top:20%;
+      padding-bottom: 5%;
+  }
+  
+  .text3, .text5 {
+      font-size: 60px;
+      margin-top:5%;
+      color: #fff;
+      padding-bottom:0;
+  }
+  .text4 {
+      font-size: 35px;
+      padding: 2%;
+      margin-top: 0;
+  }
+  .otzyv{
+      background-color: #ffffff;
+      width: 90%;
+      margin-left: 4%;
+      margin-top: 5%;
+  
+  }
+  .hobby{
+      color: #181818;
+      font-size: 30px;
+      line-height: 120%;
+      font-family: Bradley Hand, cursive;
+      font-weight: lighter;
+      text-align: center;
+      margin-left:7%;
+      padding-bottom: 3%;
+  }
+  ul {
+    text-align: left;
+    padding-left: 20%;
+  }
+  
+  
+  .photos{
+      background-color: #ffffff;
+      width: 90%;
+      margin-left: 4%;
+      margin-top: 5%;
+      padding-bottom: 7%;
+  
+  }
+  .text6 {
+      width: 70%;
+      color: #181818;
+      font-size: 35px;
+      line-height: 120%;
+      font-family: Bradley Hand, cursive;
+      font-weight: lighter;
+      text-align: center;
+      margin-left:15%;
+      padding-top:5%;
+  }
+  .about {
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about__item {
+    width: 370px;
+    position: relative;
+    margin:0;
+    padding: 0 5%;
+  
+  }
+  
+  .about__item:hover .about__img {
+    transform: translate3d(-10px, -10px, 0);
+  }
+  
+  .about__item:hover .about__img img {
+    opacity: .1;
+  
+  }
+  
+  .about__item:hover .about__text {
+    opacity: 1;
+  }
+  
+  .about__img {
+    background: linear-gradient(to bottom, #fff, #000);
+    transition: transform .2s linear;
+  }
+  
+  .about__img img {
+    display: block;
+    transition: opacity .1s linear;
+    width: 370px;
+    height: 330px;
+  }
+  
+  .about__text {
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0;
+  
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(0, -50%, 0);
+    transition: opacity .2s linear;
+  }
+  
+  .aa {
+      color: #E9967A;
+  }
+  
+  .text7 {
+      width: 70%;
+      color: #181818;
+      font-size: 35px;
+      line-height: 120%;
+      font-family: Bradley Hand, cursive;
+      font-weight: lighter;
+      text-align: center;
+      margin: 5% auto;
+  
+  }
+  
+  .text7 a:link {
+    color: #fff; 
+  }
+  .text7 a:visited {
+    color: #fff;
+  }
+  .text7 a:hover {
+    color: #154088; 
+  }
+  .text7 a:active {
+    color: #000; }
