@@ -188,8 +188,8 @@
   .about__img img {
     display: block;
     transition: opacity .1s linear;
-    width: 370px;
-    height: 330px;
+    width: 270px;
+    height: 230px;
   }
   
   .about__text {
